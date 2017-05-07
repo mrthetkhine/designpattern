@@ -38,7 +38,9 @@ class HardDisk
         System.out.println("Read Bootsector");
     }
 }
-public class FacadeDemo {
+class Facade
+{
+    
     CPU cpu = new CPU();
     Memory memory = new Memory();
     HardDisk hardDisk = new HardDisk();
@@ -51,8 +53,11 @@ public class FacadeDemo {
         cpu.execute();
         
     }
+}
+public class FacadeDemo {
+    
     public static void main(String[] args) {
-        FacadeDemo demo = new FacadeDemo();
+        Facade demo = new Facade();
         demo.start();
     }
 }

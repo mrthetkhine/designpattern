@@ -12,7 +12,7 @@ package command;
 public class CommandDemo {
     public static void main(String[] args) {
         Invoker invoker = new Invoker();
-        Command copy = new Copy();
+        Command copy = new CopyCommand();
         invoker.invoke(copy);
         
         Command paste = new Paste();

@@ -23,5 +23,19 @@ public class Demo {
         
         dataSource.change("Change1");
         dataSource.change("Chage 2");
+        
+        int a= 3;
+        switch(a)
+        {
+            case 4:
+                System.out.println("4");
+                break;
+        }
+        
+       double b = 0;
+       System.out.println(1/-b);
+       
+       
+        
     }
 }
