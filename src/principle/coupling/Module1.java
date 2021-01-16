@@ -25,6 +25,13 @@ class Module2
     int data;//int data2 ;
     public void method()
     {
+        this.data = 100;//Cohesion
         System.out.println("Module 2 Method ");
+        this.method2();//Cohension
+    }
+    
+    public void method2()
+    {
+        System.out.println("Module 2 method 2");
     }
 }
