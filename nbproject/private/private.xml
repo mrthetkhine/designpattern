@@ -3,12 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Program%20Coding/Java/MorningDesignPattern/src/strategy/SelectionSort.java</file>
-            <file>file:/D:/Program%20Coding/Java/MorningDesignPattern/src/strategy/MergeSort.java</file>
-            <file>file:/D:/Program%20Coding/Java/MorningDesignPattern/src/strategy/Context.java</file>
-            <file>file:/D:/Program%20Coding/Java/MorningDesignPattern/src/strategy/SortStrategy.java</file>
-            <file>file:/D:/Program%20Coding/Java/MorningDesignPattern/src/state/HungryState.java</file>
-            <file>file:/D:/Program%20Coding/Java/MorningDesignPattern/src/strategy/StrategyDemo.java</file>
+            <file>file:/Users/thetkhine/Project/Turing/Java/designpattern/src/principle/coupling/CouplingDemo.java</file>
+            <file>file:/Users/thetkhine/Project/Turing/Java/designpattern/src/principle/coupling/Module1.java</file>
         </group>
     </open-files>
 </project-private>
