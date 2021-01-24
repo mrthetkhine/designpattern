@@ -16,6 +16,7 @@ public class ProxyDemo {
         
         command = new CommandExecutorProxy("admin", "admin1");
         command.runCommand("rm");
+        
     }
     
 }

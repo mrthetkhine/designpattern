@@ -63,8 +63,8 @@ public class Text {
     }
       public static void main(String[] args) {
         Text text = new Text.Builder()
-                            .color("green")
                             .displayValue("Hello")
+                            .color("green")
                             .decoration("bold")
                             .build();
         System.out.println("Text "+text);

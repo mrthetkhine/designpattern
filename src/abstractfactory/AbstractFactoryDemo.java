@@ -82,15 +82,13 @@ class PDFReportFactory extends ReportFactory
 }
 public class AbstractFactoryDemo {
     public static void main(String[] args) {
-        ReportFactory fac = new HTMLReportFactory();
+        ReportFactory fac = new PDFReportFactory();
         ReportHeader header = fac.createHeader();
         ReportBody body = fac.createBody();
         
         header.genereateHeader();
         body.generateBody();
         
-        for (int i = 0; i < 10; i++) {
-            System.out.println((Integer) i);
-        }
+        
     }
 }
